@@ -1,0 +1,43 @@
+
+body {
+    font-family: georgia, serif;
+    width: 760px;
+    margin: 30px auto 50px;
+    color: #777;
+    letter-spacing: -0.05em;
+    font-size: 20px;
+    background: url(background.jpg) repeat-x top left;
+}
+
+a, a:visited {
+    color: #777;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    margin: 1em 0 1.5em;
+    text-indent: 0.5em;
+    line-height: 1.4em;
+}
+
+.controls, .warning, .short-link,  .social {
+    text-align: center;
+}
+
+.note {
+    color: #aaa;
+    font-size: 75%;
+}
+
+.short-link {
+    font-size: 2em;
+    margin-top: 0;
+    text-align:center;
+}
+
+object {
+    margin-bottom: 1.5em;
+}
