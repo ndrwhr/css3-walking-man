@@ -1,0 +1,115 @@
+
+@-o-keyframes me {
+    0% { -o-transform:   rotate(5deg) translate( 5px,   0px); }
+    25% { -o-transform:  rotate(5deg) translate(-5px, -14px); }
+    50% { -o-transform:  rotate(5deg) translate( 5px,   0px); }
+    75% { -o-transform:  rotate(5deg) translate(-5px, -14px); }
+    100% { -o-transform: rotate(5deg) translate( 5px,   0px); }
+}
+
+@-o-keyframes right-bicep {
+    0%   { -o-transform: rotate(26deg); }
+    50%  { -o-transform: rotate(-20deg); }
+    100% { -o-transform: rotate(26deg); }
+}
+
+@-o-keyframes left-bicep {
+    0%   { -o-transform: rotate(-20deg); }
+    50%  { -o-transform: rotate(26deg); }
+    100% { -o-transform: rotate(-20deg); }
+}
+
+@-o-keyframes right-forearm {
+    0%   { -o-transform: rotate(-10deg); }
+    50%  { -o-transform: rotate(-45deg); }
+    100% { -o-transform: rotate(-10deg); }
+}
+
+@-o-keyframes left-forearm {
+    0%   { -o-transform: rotate(-45deg); }
+    50%  { -o-transform: rotate(-10deg); }
+    100% { -o-transform: rotate(-45deg); }
+}
+
+@-o-keyframes right-thigh {
+    0%   { -o-transform: rotate(-45deg); }
+    50%  { -o-transform: rotate(10deg); }
+    100% { -o-transform: rotate(-45deg); }
+}
+
+@-o-keyframes left-thigh {
+    0%   { -o-transform: rotate(10deg); }
+    50%  { -o-transform: rotate(-45deg); }
+    100% { -o-transform: rotate(10deg); }
+}
+
+@-o-keyframes right-shin {
+    0%   { -o-transform: rotate(30deg); }
+    25%  { -o-transform: rotate(20deg); }
+    50%  { -o-transform: rotate(20deg); }
+    75%  { -o-transform: rotate(85deg); }
+    100% { -o-transform: rotate(30deg); }
+}
+
+@-o-keyframes left-shin {
+    0%   { -o-transform: rotate(20deg); }
+    25%  { -o-transform: rotate(85deg); }
+    50%  { -o-transform: rotate(30deg); }
+    75%  { -o-transform: rotate(20deg); }
+    100% { -o-transform: rotate(20deg); }
+}
+
+@-o-keyframes right-foot {
+    0%   { -o-transform: rotate(-5deg); }
+    25%  { -o-transform: rotate(-7deg); }
+    50%  { -o-transform: rotate(-16deg); }
+    75%  { -o-transform: rotate(-10deg); }
+    100% { -o-transform: rotate(-5deg); }
+}
+
+@-o-keyframes left-foot {
+    0%   { -o-transform: rotate(-16deg); }
+    25%  { -o-transform: rotate(-10deg); }
+    50%  { -o-transform: rotate(-5deg); }
+    75%  { -o-transform: rotate(-7deg); }
+    100% { -o-transform: rotate(-16deg); }
+}
+
+@-o-keyframes right-toes {
+    0%   { -o-transform: rotate(0deg); }
+    25%  { -o-transform: rotate(-10deg); }
+    50%  { -o-transform: rotate(-10deg); }
+    75%  { -o-transform: rotate(-25deg); }
+    100% { -o-transform: rotate(0deg); }
+}
+
+@-o-keyframes left-toes {
+    0%   { -o-transform: rotate(-10deg); }
+    25%  { -o-transform: rotate(-25deg); }
+    50%  { -o-transform: rotate(0deg); }
+    75%  { -o-transform: rotate(-10deg); }
+    100% { -o-transform: rotate(-10deg); }
+}
+
+@-o-keyframes shadow {
+    0%   { opacity: 1; }
+    25%  { opacity: 0.75; }
+    50%  { opacity: 1; }
+    75%  { opacity: 0.75; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes prop-600 {
+    0%   { -o-transform: translateX(0px); }
+    100% { -o-transform: translateX(-600px); }
+}
+
+@-o-keyframes prop-1200 {
+    0%   { -o-transform: translateX(0px); }
+    100% { -o-transform: translateX(-1200px); }
+}
+
+@-o-keyframes prop-2000 {
+    0%   { -o-transform: translateX(0px); }
+    100% { -o-transform: translateX(-2000px); }
+}

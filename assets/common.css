@@ -12,8 +12,15 @@
     position: absolute;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 
 #canvas:target div:not(.overlay) {
@@ -28,12 +35,18 @@
     top: 50px; left: 350px;
     -webkit-animation-name: me;
     -moz-animation-name: me;
+    -ms-animation-name: me;
+    -o-animation-name: me;
+    animation-name: me;
 }
 
 .me, .me div {
     background-repeat: no-repeat;
     -webkit-animation-duration: 1750ms;
     -moz-animation-duration: 1750ms;
+    -ms-animation-duration: 1750ms;
+    -o-animation-duration: 1750ms;
+    animation-duration: 1750ms;
 }
 
 .torso {
@@ -45,17 +58,26 @@
     left: 12px;
     -webkit-transform-origin: 20px 10px;
     -moz-transform-origin: 20px 10px;
+    -ms-transform-origin: 20px 10px;
+    -o-transform-origin: 20px 10px;
+    transform-origin: 20px 10px;
 }
 
 .right.arm {
     top: 93px;
     -webkit-animation-name: right-bicep;
     -moz-animation-name: right-bicep;
+    -ms-animation-name: right-bicep;
+    -o-animation-name: right-bicep;
+    animation-name: right-bicep;
 }
 .left.arm {
     top: 87px;
     -webkit-animation-name: left-bicep;
     -moz-animation-name: left-bicep;
+    -ms-animation-name: left-bicep;
+    -o-animation-name: left-bicep;
+    animation-name: left-bicep;
 }
 
 .bicep {
@@ -70,38 +92,59 @@
     width: 36px; height: 121px;
     -webkit-transform-origin: 3px 7px;
     -moz-transform-origin: 3px 7px;
+    -ms-transform-origin: 3px 7px;
+    -o-transform-origin: 3px 7px;
+    transform-origin: 3px 7px;
 }
 
 .right.forearm {
     background-image: url(images/me/right-forearm.png);
     -webkit-animation-name: right-forearm;
     -moz-animation-name: right-forearm;
+    -ms-animation-name: right-forearm;
+    -o-animation-name: right-forearm;
+    animation-name: right-forearm;
 }
 
 .left.forearm {
     background-image: url(images/me/left-forearm.png);
     -webkit-animation-name: left-forearm;
     -moz-animation-name: left-forearm;
+    -ms-animation-name: left-forearm;
+    -o-animation-name: left-forearm;
+    animation-name: left-forearm;
 }
 
 .leg {
     left: 6px;
     -webkit-transform-origin: 30px 20px;
     -moz-transform-origin: 30px 20px;
+    -ms-transform-origin: 30px 20px;
+    -o-transform-origin: 30px 20px;
+    transform-origin: 30px 20px;
     -webkit-animation-name: thigh;
     -moz-animation-name: thigh;
+    -ms-animation-name: thigh;
+    -o-animation-name: thigh;
+    animation-name: thigh;
 }
 
 .right.leg {
     top: 235px;
     -webkit-animation-name: right-thigh;
     -moz-animation-name: right-thigh;
+    -ms-animation-name: right-thigh;
+    -o-animation-name: right-thigh;
+    animation-name: right-thigh;
 }
 
 .left.leg {
     top: 225px;
     -webkit-animation-name: left-thigh;
     -moz-animation-name: left-thigh;
+    -ms-animation-name: left-thigh;
+    -o-animation-name: left-thigh;
+    animation-name: left-thigh;
 }
 
 .thigh {
@@ -117,15 +160,24 @@
     background-image: url(images/me/shin.png);
     -webkit-transform-origin: 30px 25px;
     -moz-transform-origin: 30px 25px;
+    -ms-transform-origin: 30px 25px;
+    -o-transform-origin: 30px 25px;
+    transform-origin: 30px 25px;
 }
 
 .right.shin {
     -webkit-animation-name: right-shin;
     -moz-animation-name: right-shin;
+    -ms-animation-name: right-shin;
+    -o-animation-name: right-shin;
+    animation-name: right-shin;
 }
 .left.shin {
     -webkit-animation-name: left-shin;
     -moz-animation-name: left-shin;
+    -ms-animation-name: left-shin;
+    -o-animation-name: left-shin;
+    animation-name: left-shin;
 }
 
 .foot {
@@ -134,15 +186,24 @@
     background-image: url(images/me/foot.png);
     -webkit-transform-origin: 0 50%;
     -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -o-transform-origin: 0 50%;
+    transform-origin: 0 50%;
 }
 
 .right.foot {
     -webkit-animation-name: right-foot;
     -moz-animation-name: right-foot;
+    -ms-animation-name: right-foot;
+    -o-animation-name: right-foot;
+    animation-name: right-foot;
 }
 .left.foot {
     -webkit-animation-name: left-foot;
     -moz-animation-name: left-foot;
+    -ms-animation-name: left-foot;
+    -o-animation-name: left-foot;
+    animation-name: left-foot;
 }
 
 .toes {
@@ -151,15 +212,24 @@
     background-image: url(images/me/toes.png);
     -webkit-transform-origin: 0% 100%;
     -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
 }
 
 .right.toes {
     -webkit-animation-name: right-toes;
     -moz-animation-name: right-toes;
+    -ms-animation-name: right-toes;
+    -o-animation-name: right-toes;
+    animation-name: right-toes;
 }
 .left.toes {
     -webkit-animation-name: left-toes;
     -moz-animation-name: left-toes;
+    -ms-animation-name: left-toes;
+    -o-animation-name: left-toes;
+    animation-name: left-toes;
 }
 
 .shadow {
@@ -168,6 +238,9 @@
     background-image: url(images/misc/shadow.png);
     -webkit-animation-name: shadow;
     -moz-animation-name: shadow;
+    -ms-animation-name: shadow;
+    -o-animation-name: shadow;
+    animation-name: shadow;
 }
 
 /* setting proper z-indexes so that limbs show up correctly */
@@ -190,6 +263,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-repeat: no-repeat;
     -webkit-animation-name: prop-1200;
     -moz-animation-name: prop-1200;
+    -ms-animation-name: prop-1200;
+    -o-animation-name: prop-1200;
+    animation-name: prop-1200;
 }
 
 .cloud-1, .cloud-2 {
@@ -197,6 +273,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/clouds/1.png);
     -webkit-animation-duration: 120s;
     -moz-animation-duration: 120s;
+    -ms-animation-duration: 120s;
+    -o-animation-duration: 120s;
+    animation-duration: 120s;
 }
 
 .cloud-3, .cloud-4 {
@@ -205,6 +284,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/clouds/2.png);
     -webkit-animation-duration: 80s;
     -moz-animation-duration: 80s;
+    -ms-animation-duration: 80s;
+    -o-animation-duration: 80s;
+    animation-duration: 80s;
 }
 
 .cloud-5, .cloud-6 {
@@ -213,6 +295,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/clouds/3.png);
     -webkit-animation-duration: 140s;
     -moz-animation-duration: 140s;
+    -ms-animation-duration: 140s;
+    -o-animation-duration: 140s;
+    animation-duration: 140s;
 }
 
 .cloud-7, .cloud-8 {
@@ -221,6 +306,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/clouds/4.png);
     -webkit-animation-duration: 90s;
     -moz-animation-duration: 90s;
+    -ms-animation-duration: 90s;
+    -o-animation-duration: 90s;
+    animation-duration: 90s;
 }
 
 .cloud-1 { left: 0px; }
@@ -241,14 +329,23 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background: url(images/misc/horizon.png) repeat-x;
     -webkit-animation-name: prop-600;
     -moz-animation-name: prop-600;
+    -ms-animation-name: prop-600;
+    -o-animation-name: prop-600;
+    animation-name: prop-600;
     -webkit-animation-duration: 40s;
     -moz-animation-duration: 40s;
+    -ms-animation-duration: 40s;
+    -o-animation-duration: 40s;
+    animation-duration: 40s;
 }
 
 .ground div {
     background-repeat: no-repeat;
     -webkit-animation-name: prop-2000;
     -moz-animation-name: prop-2000;
+    -ms-animation-name: prop-2000;
+    -o-animation-name: prop-2000;
+    animation-name: prop-2000;
 }
 
 .sign-all-css {
@@ -257,6 +354,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/signs/all-css.png);
     -webkit-animation-duration: 35s;
     -moz-animation-duration: 35s;
+    -ms-animation-duration: 35s;
+    -o-animation-duration: 35s;
+    animation-duration: 35s;
 }
 
 .sign-lots-of-divs {
@@ -265,6 +365,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/signs/lots-of-divs.png);
     -webkit-animation-duration: 56s;
     -moz-animation-duration: 56s;
+    -ms-animation-duration: 56s;
+    -o-animation-duration: 56s;
+    animation-duration: 56s;
 }
 
 .sign-no-js {
@@ -273,6 +376,9 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/signs/no-js.png);
     -webkit-animation-duration: 71s;
     -moz-animation-duration: 71s;
+    -ms-animation-duration: 71s;
+    -o-animation-duration: 71s;
+    animation-duration: 71s;
 }
 
 .sign-best {
@@ -281,4 +387,7 @@ div.leg > div.thigh > div.shin { z-index: -1; }
     background-image: url(images/signs/best.png);
     -webkit-animation-duration: 95s;
     -moz-animation-duration: 95s;
+    -ms-animation-duration: 95s;
+    -o-animation-duration: 95s;
+    animation-duration: 95s;
 }
